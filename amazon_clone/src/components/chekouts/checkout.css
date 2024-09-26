@@ -1,0 +1,36 @@
+.checkout {
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+}
+
+.checkout_left {
+    margin-top: 50px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout_heading {
+    border-bottom: 1px solid rgb(63, 2, 2);
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+  font-weight: 400;
+  height: 100px;
+}
+
+.chekout_right {
+    position: sticky;
+    top: 80px;
+  border: 1px solid black;
+  width: 450px;
+  margin-right: 20px;
+  border: 3px solid #dddddd;
+  height: 150px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: #dddddd;
+  border-radius: 10px;
+}

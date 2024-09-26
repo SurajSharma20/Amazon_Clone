@@ -1,0 +1,9 @@
+.Banner_image{
+    width: 100%;
+}
+
+.cart_row{
+    display: flex;
+    justify-content:space-evenly;
+    margin-right: 10px;
+}

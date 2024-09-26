@@ -1,0 +1,46 @@
+.cart{
+    width: 500px;
+    margin: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 5px;
+}
+
+.cart_info{
+    margin-left: 10px;
+    margin-right: 20px;
+   
+}
+
+.card_ratings{
+    display: flex;
+}
+.rating_star{
+    color: orange;
+    
+}
+
+.book_cover{
+    width: 230px;
+    height: 180px;
+    object-fit: contain;
+
+ }
+ .cart_button{
+    border: none;
+    margin-top: 30px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    background-color: rgb(243, 195, 105);
+    
+   
+ }
+.cart_button:hover{
+    background-color: rgb(233, 166, 43);
+}
